@@ -1,0 +1,46 @@
+.contact-container {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #fffaf3, #f3efe9);
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-title {
+  font-size: 36px;
+  color: #00695c;
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  transition: transform 0.2s;
+}
+
+.info-item:hover {
+  transform: translateY(-5px);
+}
+
+.info-item h3 {
+  color: #00897b;
+  margin-bottom: 5px;
+}
